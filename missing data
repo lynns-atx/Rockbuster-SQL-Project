@@ -1,0 +1,5 @@
+A SQL query that checks for missing data
+
+SELECT * 
+FROM film 
+WHERE description IS null 

@@ -1,4 +1,5 @@
 A SQL query that checks for missing data
+checks for missing data in the description column in the film table
 
 SELECT * 
 FROM film 

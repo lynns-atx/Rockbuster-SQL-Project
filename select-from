@@ -1,0 +1,5 @@
+A SQL query with SELECT with FROM
+
+SELECT film_id,
+title
+FROM film

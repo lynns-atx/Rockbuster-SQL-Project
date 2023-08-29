@@ -8,3 +8,4 @@ MIN(rental_duration) AS minimum_rental_duration
 FROM film
 WHERE rating = 'PG'
 OR rating = 'G'
+GROUP BY rating

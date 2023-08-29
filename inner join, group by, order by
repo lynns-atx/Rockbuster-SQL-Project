@@ -1,4 +1,5 @@
 A SQL query with INNER JOIN, GROUP BY and ORDER BY
+Finding the total revenue for each movie
 
 SELECT D.title,
 	SUM(A.amount) AS total_revenue

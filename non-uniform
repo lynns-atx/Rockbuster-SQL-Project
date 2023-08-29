@@ -1,4 +1,5 @@
 A SQL inquiry to look for non-uniform data
+Returns only unique records from the film table
 
 --Returns only unique records from the film table
 

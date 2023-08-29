@@ -1,4 +1,5 @@
 A SQL query to find some descriptive statistics on the database
+Finding the count of movies, the average rental cost, the maximum rental duration and the minimum rental duration  for all kids' movies.
 
 SELECT
 COUNT(film_id) AS count_of_movies,

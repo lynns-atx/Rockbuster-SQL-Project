@@ -1,0 +1,8 @@
+SQL Query with INSERT
+Adding new genres to the film categories
+
+INSERT INTO category(name) VALUES('Thriller')
+INSERT INTO category(name) VALUES('Crime')
+INSERT INTO category(name) VALUES('Mystery')
+INSERT INTO category(name) VALUES('Romance')
+INSERT INTO category(name) VALUES('War')

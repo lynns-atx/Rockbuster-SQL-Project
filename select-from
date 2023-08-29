@@ -1,4 +1,5 @@
 A SQL query with SELECT with FROM
+Viewing the film_id and title from the the Film table
 
 SELECT film_id,
 title

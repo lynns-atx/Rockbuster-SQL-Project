@@ -1,4 +1,5 @@
 A SQL query to check for duplicate data
+Checking for duplicate data in the film table.
 
 SELECT title, 
   release_year, 

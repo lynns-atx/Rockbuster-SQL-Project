@@ -1,4 +1,5 @@
 A SQL query using OR
+Filtering out any movies that aren't for kids.
 
 SELECT film_id, title, description
 FROM film

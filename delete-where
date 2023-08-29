@@ -1,0 +1,3 @@
+A SQL query with DELETE with WHERE
+
+DELETE FROM category WHERE name = 'Mystery'

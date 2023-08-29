@@ -1,3 +1,4 @@
 A SQL query with DELETE with WHERE
+Deleting the category mystery from the category list.
 
 DELETE FROM category WHERE name = 'Mystery'

@@ -1,4 +1,5 @@
 A SQL query using JOIN, GROUP, ORDER and LIMIT
+finding how many customers are in the top 10 countries
 
 SELECT D.country,
 	COUNT (customer_id) AS customer_count

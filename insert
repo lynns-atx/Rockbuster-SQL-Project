@@ -1,5 +1,4 @@
 SQL Query with INSERT
-Adding new genres to the film categories
 
 INSERT INTO category(name) VALUES('Thriller')
 INSERT INTO category(name) VALUES('Crime')

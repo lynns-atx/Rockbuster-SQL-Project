@@ -1,4 +1,5 @@
 A SQL query to fine the mode
+Finding the mode of titles in the film table
 
 SELECT MODE() WITHIN GROUP (ORDER BY title) 
 AS modal_value 

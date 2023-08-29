@@ -1,4 +1,5 @@
 A SQL query using WHERE and AND
+Filtering films for just those longer than 2 hours and that cost $3 or more.
 
 SELECT film_id, title, descriotion
 FROM film

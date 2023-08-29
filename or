@@ -1,0 +1,6 @@
+A SQL query using OR
+
+SELECT film_id, title, description
+FROM film
+WHERE rating = 'PG'
+OR rating = 'G'

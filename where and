@@ -1,0 +1,6 @@
+A SQL query using WHERE and AND
+
+SELECT film_id, title, descriotion
+FROM film
+WHERE length >120
+AND rental_rate >2.99

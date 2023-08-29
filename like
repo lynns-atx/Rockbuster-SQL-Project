@@ -1,4 +1,5 @@
 A SQL query with LIKE
+Finding all titles that have the word Uptown in them.
 
 SELECT film_id, title, description
 FROM film

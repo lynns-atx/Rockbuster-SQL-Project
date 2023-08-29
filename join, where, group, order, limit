@@ -1,4 +1,5 @@
 A SQL query using JOIN, WHERE, GROUP, ORDER, LIMIT
+Finding which city had the most customers in each of the top 10 countries
 
 SELECT C.city,
 	D.country,

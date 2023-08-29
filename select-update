@@ -1,0 +1,5 @@
+Here is a SQL query with SELECT and UPDATE: 
+
+SELECT film_id FROM film WHERE title = 'African Egg'
+SELECT category_id, name FROM category
+UPDATE film_category SET category_id = 17 WHERE film_id = 5

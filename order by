@@ -1,0 +1,9 @@
+A SQL query to order the table
+
+SELECT title,
+release_year,
+rental_rate
+FROM film
+ORDER BY title,
+release_year,
+rental_rate

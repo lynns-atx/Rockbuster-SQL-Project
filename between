@@ -1,4 +1,5 @@
 A SQL query that uses BETWEEN
+filtering for films that have been checked out between 4 and 6 days
 
 SELECT film_id, title, description
 FROM film

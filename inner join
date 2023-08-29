@@ -1,4 +1,5 @@
 A SQL query using INNER JOIN
+Finding out how many movies are in each genre.
 
 SELECT A.name AS genre, 
 	COUNT(film_id) AS genre_count

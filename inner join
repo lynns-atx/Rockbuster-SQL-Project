@@ -1,0 +1,9 @@
+A SQL query using INNER JOIN
+
+SELECT A.name AS genre, 
+	COUNT(film_id) AS genre_count
+FROM category A
+INNER JOIN film_category B 
+ON A.category_id = B.category_id
+GROUP BY genre
+ORDER BY genre_count DESC

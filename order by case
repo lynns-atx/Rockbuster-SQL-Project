@@ -1,4 +1,5 @@
 A SQL inquiry that uses GROUP BY and ORDER BY CASE
+finding the minimum and maximum replacement costs for each rating category ordered by G, PG, PG-13, R, NC-17
 
 SELECT rating,
 MIN(replacement_cost) AS min_replacement_cost,

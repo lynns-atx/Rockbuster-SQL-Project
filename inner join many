@@ -1,4 +1,5 @@
 A SQL query that joins many columns from different tables into one
+Creating a table with country, customer_count, total_payments and continent
 
 SELECT country, 
 COUNT(DISTINCT A.customer_id) AS customer_count, 

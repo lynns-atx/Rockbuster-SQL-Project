@@ -1,0 +1,9 @@
+A SQL inquiry to look for non-uniform data
+
+--Returns only unique records from the film table
+
+SELECT DISTINCT title, 
+                release_year, 
+                language_id, 
+                rental_duration
+FROM film; 

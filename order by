@@ -1,4 +1,5 @@
 A SQL query to order the table
+Used to sort the movies by title from A to Z, then most recent release year, and then by highest to lowest rental rate.
 
 SELECT title,
 release_year,

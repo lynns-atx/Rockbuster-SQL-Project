@@ -1,4 +1,5 @@
-Here is a SQL query with SELECT and UPDATE: 
+Here is a SQL query with SELECT and UPDATE
+This was used to change a genre for a movie
 
 SELECT film_id FROM film WHERE title = 'African Egg'
 SELECT category_id, name FROM category

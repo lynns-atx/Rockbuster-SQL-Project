@@ -1,0 +1,39 @@
+A SQL query using JOIN, WHERE, AND, GROUP, ORDER, LIMIT
+
+SELECT B.customer_id,
+	B.first_name,
+	B.last_name,
+	D.city,
+	E.country,
+	C.postal_code,
+	SUM(amount) AS total_paid
+FROM payment A
+INNER JOIN customer B ON A.customer_id = B.customer_id
+INNER JOIN address C ON B.address_id = C.address_id
+INNER JOIN city D ON C.city_id = D.city_id
+INNER JOIN country E ON D.country_id = E.country_id
+WHERE country IN ('India',
+	'China',			'United States',			'Japan',
+	'Mexico', 
+	'Brazil',			'Russian Federation' ,		'Philippines',			'Turkey',
+	'Indonesia')
+AND
+city IN ('Aurora',
+		'Acua',
+		'Adana',
+		'Adoni',
+		'Ahmadnagar',
+		'Akishima',
+		'Akron',
+		'Allappuzha (Alleppey)',
+		'Allende',
+		'Alvorada')
+GROUP BY B.customer_id, 
+		first_name,
+		last_name,
+		email,
+		city,
+		postal_code,
+		country
+ORDER BY SUM(amount) DESC
+LIMIT 5

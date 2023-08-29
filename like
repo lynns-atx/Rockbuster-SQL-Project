@@ -1,0 +1,6 @@
+A SQL query with LIKE
+
+SELECT film_id, title, description
+FROM film
+WHERE title
+LIKE '%Uptown%'

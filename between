@@ -1,0 +1,7 @@
+A SQL query that uses BETWEEN
+
+SELECT film_id, title, description
+FROM film
+WHERE rental_duration
+BETWEEN 4
+AND 6

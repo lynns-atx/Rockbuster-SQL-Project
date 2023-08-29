@@ -1,4 +1,5 @@
 A SQL query using CTE
+Finding what country the top 5 customers live in using a CTE
 
 WITH country_top_5_customers_cte (customer_id, 
 					  first_name, 

@@ -1,4 +1,5 @@
 A SQL query using JOIN, WHERE, AND, GROUP, ORDER, LIMIT
+Finding the top 5 customers in the top cities in each of the top countries
 
 SELECT B.customer_id,
 	B.first_name,
